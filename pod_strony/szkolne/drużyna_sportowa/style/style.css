@@ -1,0 +1,76 @@
+body
+{
+    background-color: #333333;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.conteiner
+{
+    width: 1000px;
+    margin:0 auto;
+}
+
+.title
+{
+    width: 100%;
+    background-color: #a30000;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 2px;
+}
+
+.contenet
+{
+    background-color: #a30000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box
+{
+    padding: 20px;
+}
+
+.galeria
+{
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #5f5f5f;
+}
+
+#map
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+img
+{
+    background-color:#444242;
+    padding: 5px;
+}
+
+a:link
+{
+    color: white;
+    text-decoration: none;
+}
+a:visited
+{
+    color: white;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #5a1515;
+    text-decoration: none;
+}
+a:active
+{
+    color: #5a1515;
+    text-decoration: none;
+}
