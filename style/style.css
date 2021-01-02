@@ -51,8 +51,6 @@ body
     background-color: #089748;
     text-align: center;
     margin: 0 auto;
-    padding-top: 7px;
-    padding-bottom: 7px;
     -webkit-box-shadow: 0px 11px 19px 0px rgba(50, 50, 50, 0.41);
     -moz-box-shadow:    0px 11px 19px 0px rgba(50, 50, 50, 0.41);
     box-shadow:         0px 11px 19px 0px rgba(50, 50, 50, 0.41);
@@ -60,6 +58,8 @@ body
     position: fixed;
     bottom: 0;
     width: 100%;
+    display: inline-block;
+    font-size: 17px;
 }
 
 #footer a
@@ -87,6 +87,7 @@ body
     padding-top: 5px;
     display: inline-block;
     font-size: 23px;
+    margin: 4px;
 }
 
 .menu_opt a
@@ -98,5 +99,56 @@ body
 .menu_opt:hover
 {
     background-color: #29b367;
-    font-size: 25px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 5px 13px -3px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    0px 5px 13px -3px rgba(50, 50, 50, 0.5);
+    box-shadow:         0px 5px 13px -3px rgba(50, 50, 50, 0.5);
+}
+
+#git
+{
+    margin: 2px;
+    display: inline-block;
+    padding: 6px;
+}
+
+#dis
+{
+    margin: 2px;
+    display: inline-block;
+    padding: 6px;
+}
+
+#game
+{
+    margin: 2px;
+    display: inline-block;
+    padding: 6px;
+}
+
+#git:hover
+{
+    background-color: #24292E;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 5px 13px -3px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    0px 5px 13px -3px rgba(50, 50, 50, 0.5);
+    box-shadow:         0px 5px 13px -3px rgba(50, 50, 50, 0.5);
+}
+
+#dis:hover
+{
+    background-color: #738BD7;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 5px 13px -3px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    0px 5px 13px -3px rgba(50, 50, 50, 0.5);
+    box-shadow:         0px 5px 13px -3px rgba(50, 50, 50, 0.5);
+}
+
+#game:hover
+{
+    background-color: #2F7F6F;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 5px 13px -3px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    0px 5px 13px -3px rgba(50, 50, 50, 0.5);
+    box-shadow:         0px 5px 13px -3px rgba(50, 50, 50, 0.5);
 }
